@@ -1,4 +1,4 @@
-import * as ts from 'typescript'
+import * as ts from 'ttypescript'
 import * as fs from 'fs-extra'
 import * as _ from 'lodash'
 import * as path from 'path'
