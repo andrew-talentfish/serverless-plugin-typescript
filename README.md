@@ -4,8 +4,8 @@
 ## What changed?
 
 * Added [`ttypescript`](https://github.com/cevek/ttypescript) to support plugins in the tsconfig. 
-* For example, you can transform aliases for paths which is great for a monorepo serverless app. 
-  This is a solution used for a nestjs monorepo application. 
+* For example, you can transform aliases for given paths which is great for a monorepo serverless app. 
+  This is a solution was used for a nestjs monorepo application. 
 ```json
  "paths": {
       "@app/database": [
