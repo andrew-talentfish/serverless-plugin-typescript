@@ -1,7 +1,23 @@
 # serverless-plugin-typescript
 [![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com) [![npm version](https://badge.fury.io/js/serverless-plugin-typescript.svg)](https://badge.fury.io/js/serverless-plugin-typescript) [![Build Status](https://travis-ci.org/prisma/serverless-plugin-typescript.svg?branch=master)](https://travis-ci.org/prisma/serverless-plugin-typescript)
 
-Serverless plugin for zero-config Typescript support
+## What changed?
+
+* Added [`ttypescript`](https://github.com/cevek/ttypescript) to support plugins in the tsconfig. 
+* For example, you can transform aliases for paths which is great for a monorepo serverless app.  
+```json
+ "paths": {
+      "@app/database": [
+        "libs/database/src"
+      ]
+},
+ "plugins": [
+      {
+        "transform": "@zerollup/ts-transform-paths",
+        "exclude": ["*"]
+      }
+    ],
+```
 
 ## Features
 
