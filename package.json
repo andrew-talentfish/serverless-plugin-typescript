@@ -1,6 +1,6 @@
 {
   "name": "@andrew-talentfish/serverless-plugin-typescript",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "license": "MIT",
   "main": "dist/src/index.js",
   "files": [
